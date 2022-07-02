@@ -27,3 +27,37 @@ export const TAG_MAP: TagParams = {
     name: '教授'
   }
 }
+
+export interface LabelParams {
+  [x: string]: {
+    icon: string
+    name: string
+  }
+}
+
+export const LABEL_NAME_MAP: LabelParams = {
+  phone: {
+    icon: 'phone-filled',
+    name: '联系方式'
+  },
+  email: {
+    icon: 'mail-filled',
+    name: '联系邮箱'
+  },
+  location: {
+    icon: 'compass-filled',
+    name: '办公地址'
+  },
+  hiring: {
+    icon: 'security-scan-filled',
+    name: '招生人群'
+  },
+  college: {
+    icon: 'bank-filled',
+    name: '所在院系'
+  },
+  research: {
+    icon: 'experiment-filled',
+    name: '科研方向'
+  }
+}
